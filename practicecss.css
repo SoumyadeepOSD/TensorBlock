@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(141, 11, 255);
+    align-self:stretch;
+    padding-right: 20px;
+    font-weight:500;
+}
+
+.item{
+    color: black;
+    font-weight:lighter;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.item:hover{
+    color: violet;
+    cursor: pointer;
+}
+.container{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.title:hover{
+    color: rgb(47, 57, 255);
+    cursor: pointer;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.first_row{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.second_row{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.card_row_1{
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 5px;
+    background: linear-gradient(blue, purple);
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.card_row_2{
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 5px;
+    background: linear-gradient(green, red);
+    box-shadow: 5px 5px 5px 5px grey;
+}
+#highlight{
+    color: red;
+    background-color: yellow;
+    display: inline;
+    height: 70px;
+    width: 70px;
+}
+.img{
+    width: 100px;
+    height: 50px;
+}
+
+.pad{
+    height: 120vh;
+    background:rgb(28, 119, 255);
+}
+
+.cardshowoff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+.card1{
+    height: 30px;
+    width: 60px;
+    background:rgb(101, 232, 255);
+    border-radius: 10px;
+    margin: 5px;
+}
+.card2{
+    height: 30px;
+    width: 60px;
+    background:rgb(101, 232, 255);
+    border-radius: 10px;
+    margin: 5px;
+}
+.card3{
+    height: 30px;
+    width: 60px;
+    background:rgb(101, 232, 255);
+    border-radius: 10px;
+    margin: 5px;
+}
+/* #bg-IMG{
+    margin-top: 70vh;
+} */
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#front-logo{
+    height: 59vh;
+    width: 32vw;
+    flex-wrap: 0;
+}
+
+@media (max-width: 900px)
+{
+    .container2{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .containeR{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+#tag-line{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    padding-top: 120px;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(101, 232, 255);
+}
+
+#under-tag-line{
+    color: rgb(255, 0, 255);
+    font-size: 20px;
+    padding-left: 12px;
+    letter-spacing: 2px;
+    
+}
+
+
+.containeR{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 36vh;
+}
+.CARD{
+    height: 73vh;
+    width: 26vw;
+    background: rgb(241, 238, 238);;
+    border-radius: 10px;
+}
+
+.project-work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background: rgb(0, 149, 255);
+    padding-bottom: 120px;
+}
+
+#explore{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.textline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 112px;
+    height: 5px;
+    background: white;
+    border-radius: 2px;
+}
+.cardtxt{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    background: rgb(0, 149, 255);
+    margin-top: 150px;
+    height: 50vh;
+    padding-bottom: 180px;
+    padding-top: 409px;
+}
+#project{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    font-size: 90px;
+}
+
+@media(max-width: 900px)
+{
+    .containeR{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .CARD{
+        width: 81vw;
+        margin-bottom: 40px; 
+    }
+
+    .pad{
+        padding-bottom: 1500px;
+    }
+    .cardtxt{
+        font-size: 67px;
+    }
+    .project-work{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background:rgb(0, 149, 255);
+}
+.copyright{
+    padding-left: 463px;
+    padding-bottom: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+#fb{
+    height: 30px;
+    width: 32px;
+    border-radius:18px;
+    margin-right: 28px;
+}
+
+#tw{
+    height: 30px;
+    width: 32px;
+    background: white;
+    border-radius:18px;
+    margin-right: 28px;
+}
+#in{
+    height: 30px;
+    width: 32px;
+    border-radius:18px;
+    margin-right: 28px;
+}
+
+#li{
+    height: 30px;
+    width: 32px;
+    border-radius:18px;
+    margin-right: 28px;
+}
+
+#git{
+    height: 30px;
+    width: 32px;
+    border-radius:18px;
+}
+.sociallinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media(max-width: 900px)
+{
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .copyright{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.item1{
+    color: blueviolet;
+}
+.hola{
+    text-decoration: none;
+}
+a{
+    text-decoration: none !important;   
+}
+a:hover{
+    color: violet;
+    cursor: pointer;
+}
